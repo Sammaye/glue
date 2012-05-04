@@ -3,9 +3,9 @@ Glue::import('LinkedIn', 'glue/plugins/linkedin/linkedin.php');
 
 class LinkedInSession extends LinkedIn{
 
-	function __construct($consumer_key = "WP7tjwrppK5R7i_dRON8mv8lch5Yt2cXqKTMZll1zM16I1PISLc32Kc-e9EqkLiD",
-	$consumer_secret = "cP4hc4-t9qdqnpCj2l9kTCEmhL9u63hCTdkJ8VBZxKPauHmDe48o1VhcB9lAbeP2",
-	$oauth_callback = "http://stagex.co.uk/autoshare/auth?network=lnkd") {
+	function __construct($consumer_key = "",
+	$consumer_secret = "",
+	$oauth_callback = "") {
 
 		if($oauth_callback) {
 			$this->oauth_callback = $oauth_callback;
