@@ -1,0 +1,9 @@
+# Glue Framework
+
+This is a first git commit of a framework I made as a personal pet project to learn how MVCs in PHP worked.
+
+It is heavily based upon Yii and makes use of certain patterns they also do.
+
+It is very small and basic but I have been able to make a couple of very specialist sites out of it.
+
+Not all dependancies are fullfilled by this Git, and applications folder and more would be required to get this framework to work
